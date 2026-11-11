@@ -1,0 +1,3 @@
+Animasyon: muzik_dans
+Açıklama: Müzik çalınca dans etme (Satır 3: Sütun 1-6-4-2-3-5 döngüsü)
+Toplam Kare: 6

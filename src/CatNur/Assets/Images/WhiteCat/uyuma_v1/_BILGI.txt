@@ -1,0 +1,3 @@
+Animasyon: uyuma_v1
+Açıklama: v1 Uyuma (Satır 13 - 2 Kare)
+Toplam Kare: 2

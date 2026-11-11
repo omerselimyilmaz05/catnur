@@ -1,0 +1,1 @@
+Row 3 Col 4 rotated 90 degrees left for wall sliding / clinging

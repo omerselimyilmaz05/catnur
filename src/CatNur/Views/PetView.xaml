@@ -1,0 +1,35 @@
+<UserControl x:Class="CatNur.Views.PetView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+        Pet visual representation.
+        Uses Image control with NearestNeighbor scaling for crisp pixel art rendering.
+    -->
+    <Grid>
+        <!-- Cat Sprite Image -->
+        <Image x:Name="PetSprite"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               Stretch="Uniform"
+               RenderOptions.BitmapScalingMode="NearestNeighbor"
+               Margin="0,0,0,-21">
+            <Image.Effect>
+                <DropShadowEffect Color="#30000000"
+                                  BlurRadius="4"
+                                  ShadowDepth="2"
+                                  Opacity="0.25"/>
+            </Image.Effect>
+        </Image>
+
+        <!-- Render transform for animations (bounce, catjam head-tilt, etc.) -->
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform x:Name="BounceScale" ScaleX="1" ScaleY="1"/>
+                <RotateTransform x:Name="HeadTilt" Angle="0"/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.RenderTransformOrigin>
+            <Point X="0.5" Y="0.5"/>
+        </Grid.RenderTransformOrigin>
+    </Grid>
+</UserControl>

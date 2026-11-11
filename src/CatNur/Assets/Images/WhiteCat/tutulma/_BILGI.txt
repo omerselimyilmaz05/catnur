@@ -1,0 +1,3 @@
+Animasyon: tutulma
+Açıklama: Mouse ile tutulduğunda tutulma modu (Satır 44)
+Toplam Kare: 1

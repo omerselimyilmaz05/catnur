@@ -1,0 +1,3 @@
+Animasyon: dusme
+Açıklama: Düşme (Satır 10 - 6 Kare)
+Toplam Kare: 6

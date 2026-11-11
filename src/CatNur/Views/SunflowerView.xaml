@@ -1,0 +1,21 @@
+<Window x:Class="CatNur.Views.SunflowerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        IsHitTestVisible="False"
+        Width="800" Height="40">
+    <!--
+        Separate small window for displaying collected sunflowers.
+        Positioned above the taskbar.
+        IsHitTestVisible=False → clicks pass through to desktop/apps.
+    -->
+    <StackPanel x:Name="SunflowerPanel"
+                Orientation="Horizontal"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"/>
+</Window>

@@ -1,0 +1,3 @@
+Animasyon: oturma
+Açıklama: Oturma (Satır 1, Sütun 1 - 1 Kare)
+Toplam Kare: 1
