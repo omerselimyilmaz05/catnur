@@ -1,5 +1,7 @@
 # CatNur
 
+<p align="center"><img src="docs/cat.png" alt="CatNur kedisi" width="128"></p>
+
 Masaüstünde gezen, pencerelerin üstüne zıplayan, uyuyan, müziğe dans eden bir masaüstü kedisi (Windows, WPF / .NET 8).
 
 ## Çalıştırma
