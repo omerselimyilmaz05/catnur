@@ -1,7 +1,5 @@
 # CatNur
 
-<p align="center"><img src="docs/cat.png" alt="CatNur kedisi" width="128"></p>
-
 Masaüstünde gezen, pencerelerin üstüne zıplayan, uyuyan, müziğe dans eden bir masaüstü kedisi (Windows, WPF / .NET 8).
 
 ## Çalıştırma
@@ -25,3 +23,5 @@ Kapatmak için tepsideki (gizli simgeler) kedi ikonuna sağ tıkla → **Çıkı
 - Kedi bulunduğu monitörde kalır; zıplama, uyuma ve gezinme o monitörle sınırlıdır.
 
 Windows'un kendi panelleri (Hızlı Ayarlar, Başlat vb.) kedinin üstünde çizilir, bu bir işletim sistemi kısıtıdır.
+
+<p align="center"><img src="src/CatNur/Assets/Images/WhiteCat/uyuma_v1/frame_0.png" alt="Uyuyan kedi" width="128"></p>
